@@ -190,7 +190,7 @@ screen -S miner1
 RUST_LOG=info,nockchain=info,nockchain_libp2p_io=info,libp2p=info,libp2p_quic=info \
 MINIMAL_LOG_FORMAT=true \
 nockchain --mine \
---mining-pubkey PUB_KEY
+--mining-pubkey 3x421V3iQWxGPDomka3UJr9G15tpDNHX32GySJasGdLvteYGEha9XgNsJdJh561JvJVB4awuKjBpZkRM4Ae8syDeAxDKMzspFrneWii37PebMAxREYptCViLb5Kr6innDmcU
 
 # OR
 
@@ -198,7 +198,7 @@ nockchain --mine \
 RUST_LOG=info,nockchain=info,nockchain_libp2p_io=info,libp2p=info,libp2p_quic=info \
 MINIMAL_LOG_FORMAT=true \
 nockchain --mine \
---mining-pubkey PUB_KEY \
+--mining-pubkey 3x421V3iQWxGPDomka3UJr9G15tpDNHX32GySJasGdLvteYGEha9XgNsJdJh561JvJVB4awuKjBpZkRM4Ae8syDeAxDKMzspFrneWii37PebMAxREYptCViLb5Kr6innDmcU \
 --peer /ip4/95.216.102.60/udp/3006/quic-v1 \
 --peer /ip4/65.108.123.225/udp/3006/quic-v1 \
 --peer /ip4/65.109.156.108/udp/3006/quic-v1 \
